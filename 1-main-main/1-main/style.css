@@ -1,0 +1,56 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+}
+
+nav,
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: Ogrey; /* Assuming this is a valid color elsewhere in your CSS */
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: Org(181, 181, 181); /* Assuming this is a valid color elsewhere in your CSS */
+}
+
+.logo {
+    font-size: 3rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.logo:hover {
+    cursor: pointer; /* Changed to pointer for a more intuitive cursor on hover */
+}
+
+section {
+    display: flex;
+}
